@@ -53,6 +53,7 @@ p{
           margin-bottom: 2rem;
         max-width: 160px;
           background-color: var(--primary-color);
+        cursor:pointer;
           
           height: 4vh;
           margin: auto;
