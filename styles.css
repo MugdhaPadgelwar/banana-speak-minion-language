@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=PT+Sans+Caption&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'PT Sans Caption', sans-serif;
+   
+    
+}
+:root{
+    --primary-color:#fcd34d
+}
+
+
+textarea{
+    width: 40%;
+    height: 10vh;
+    display: block;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem ;
+
+}
+
+#output{
+    width:40%;
+    border:solid black;
+    height: 10vh;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2rem;
+    
+}
+
+p{
+    text-align: center;
+}
+
+
+.nav-bar{
+    background-color: var(--primary-color);
+    padding:2rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.btn-design{
+          margin-bottom: 2rem;
+        max-width: 150px;
+          background-color: var(--primary-color);
+          border-radius: 1rem;
+          height: 3vh;
+          margin: auto;
+          display: block;
+
+}
+
+.nav-text{
+    text-align: center;
+}
+.foot-design{
+    background-color: var(--primary-color);
+    padding:2.5rem;
+    border-top-left-radius: 1rem;
+    margin-bottom: none;
+    display: block;
+}
+.foot-head{
+    text-align: center;
+    padding: none;
+
+}
+
+.foot-text{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
